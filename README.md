@@ -2,14 +2,14 @@
 The simulator takes a combination circuit in an ISCAS gate-level netlist format located in `resources/circuit.isc` along with test inputs located in `resources/test-inputs.txt` and simulates the propagation of the inputs against the circuit. It then generates the waveform associated with the simulation.
 
 ## Waveform
-Here's an example of what the waveform looks like.
+Here's an example of what the waveform looks like. It's based on the ISCAS c17 [benchmark](https://www.researchgate.net/figure/ISCAS-Benchmark-Circuit-c17_fig3_297715287).
 
 <br/>
 
 ![Waveform](./waveform.png)
 
 <br/>
-Green indicates the HIGH logic, yellow the LOW logic, and red the UNKNOWN logic.
+Green indicates the HIGH logic, yellow the LOW logic, and red the UNKNOWN logic. 
 
 
 ## Install
